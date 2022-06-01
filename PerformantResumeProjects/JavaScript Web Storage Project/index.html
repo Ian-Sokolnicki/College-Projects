@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+
+<meta charset="UTF-8" />
+<title>Studio 8</title>
+
+<!--
+CS 3312, spring 2022
+Studio 8
+DON'T CHANGE THIS FILE
+-->
+
+<!-- Import a CSS stylesheet to style the page. -->
+<link href="style.css" rel="stylesheet" />
+
+</head><body>
+
+<h1>Web apps</h1>
+
+<fieldset id="sticky-text-area">
+   <legend>Sticky text</legend>
+   <textarea cols="80" id="text-input" rows="20"></textarea>
+   <p>
+      Changes made:
+      <span class="number-output" id="text-changes-made"></span>
+   </p>
+</fieldset>
+
+<fieldset id="card-clicker-area">
+   <legend>Card clicker</legend>
+   <p>
+      Click a card below to collect more cards.
+   </p>
+   <div class="card-set" id="cards">
+      <!-- Card elements will appear here. -->
+   </div>
+   <button id="reset-cards" type="button">Reset cards</button>
+</fieldset>
+
+<!-- Import a JavaScript script to add interactivity to the page. -->
+<script src="script.js"></script>
+
+</body></html>
