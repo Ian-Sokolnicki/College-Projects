@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*
+CS 3312, spring 2022
+Studio 8
+DON'T CHANGE THIS FILE
+*/
+
+/* Fixing the box-sizing attribute will make sizing boxes easier. */
+html {
+   box-sizing: border-box;
+}
+
+/* Normally the * selector is smart to avoid, but for this purpose it's fine. */
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   background-color: rgb(255, 250, 245);
+   font-family: Georgia, serif;
+}
+
+h1 {
+   color: rgb(30, 60, 90);
+   text-align: center;
+}
+
+fieldset {
+   border-color: rgb(60, 120, 180);
+   border-radius: 10px;
+   border-style: solid;
+   border-width: 2px;
+   float: left;
+}
+
+legend {
+   border-color: rgb(60, 120, 180);
+   border-style: solid;
+   border-width: 2px;
+   padding: 0px 5px;
+}
+
+textarea {
+   display: block;
+}
+
+.number-output {
+   color: rgb(15, 75, 30);
+   font-size: 200%;
+}
+
+.card-set {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.card-set div {
+   background-color: rgb(15, 75, 30);
+   border-color: rgb(0, 0, 0);
+   border-style: solid;
+   border-width: 1px;
+   color: rgb(255, 250, 245);
+   cursor: pointer;
+   margin: 5px;
+   padding: 5px;
+}
